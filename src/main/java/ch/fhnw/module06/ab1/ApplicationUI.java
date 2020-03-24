@@ -28,7 +28,7 @@ public class ApplicationUI extends StackPane {
      * layouting of controls
      * */
     private void layoutControls() {
-
+        getChildren().add(button);
     }
 
 }
